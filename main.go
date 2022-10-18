@@ -20,7 +20,7 @@ func main() {
 	r.GET("/picture/:id", func(c *gin.Context) {
 		c.Redirect(http.StatusFound, getResourceUrl(&ResourceData{
 			RequestUrl:           fmt.Sprintf("%s%s", baseUrlPicture, c.Param("id")),
-			OriginUrlBase:        "https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75",
+			OriginUrlBase:        "https://imageproxy.ifunny.co/crop:x-20", //crop:x-20 removes the watermark
 			LinkSearchIndexStart: "/images/",
 			LinkSearchIndexEnd:   ".jpg",
 		}))
