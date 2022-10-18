@@ -57,7 +57,7 @@ func getResourceUrl(resourceData *ResourceData) string {
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		fmt.Println("Error occured when reading body: ", err)
+		log.Println("Error occured when reading body: ", err)
 	}
 	bodyString := string(body)
 
