@@ -11,4 +11,4 @@ Use it via my website ifunny.yupiel.net or host it yourself.
 
 I'm not affiliated with iFunny and I also won't guarantee the link via my website to work at all.
 
-Yes, you can probably write this in a more performan way but i'm lazy.
+Yes, you can probably write this in a more performant way but i'm lazy.
